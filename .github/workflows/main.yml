@@ -1,0 +1,17 @@
+name: Kernel
+
+on: push
+
+jobs:
+  build:
+    name: My Job;
+    runs-on: ubuntu-16.04
+    steps:
+    - uses: actions/checkout@v1
+    - name: Push
+      run: |
+        chmod a+x ./build.sh
+        ./build.sh
+      shell: bash
+      env:
+        api_key: ${{ secrets.api_key }}
