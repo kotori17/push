@@ -5,6 +5,7 @@ sudo apt install -y git
 export api_key
 export GITHUB_TOKEN=$api_key
 export release_repo="rzkl/push"
+export tag="0.1"
 export username="rzkl"
 export email="rzkl@mail.com"
 export repo="platform_frameworks_base"
