@@ -3,6 +3,7 @@ sudo apt install -y git
 
 # Export
 export api_key
+export GITHUB_TOKEN=$api_key
 export username="rzkl"
 export email="rzkl@mail.com"
 export repo="platform_frameworks_base"
