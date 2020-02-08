@@ -5,9 +5,9 @@ sudo apt install -y git
 export api_key
 export username="rzkl"
 export email="rzkl@mail.com"
-export repo="platform_frameworks_native"
+export repo="platform_system_bt"
 export repo1=https://$(echo $username):$(echo $api_key)@github.com/rzkl/$repo.git
-export repo2=https://android.googlesource.com/platform/frameworks/native
+export repo2=https://android.googlesource.com/platform/system/bt
 export branch1=android-9.0.0_r53
 export branch2=android-9.0.0_r53
 git config --global user.name $username
